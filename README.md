@@ -1,4 +1,4 @@
-# Integrations Registry
+# Code Stream Integrations Registry
 
 #### How to register your custom integration here?
 
