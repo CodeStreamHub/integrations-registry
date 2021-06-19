@@ -1,0 +1,7 @@
+- name: Jira Actions
+  discription: Kit containing popular Jira actions
+  repo: https://github.com/CodeStreamHub/jira-actions
+  releases:
+    - version: 0.1.0
+      image: cmbucicd/jira-actions:0.1.0
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml 
