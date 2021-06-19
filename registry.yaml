@@ -8,4 +8,15 @@
   versions:
     - version: 0.1.0
       image: cmbucicd/jira-actions:0.1.0
-      yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml 
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml
+- name: GIT Actions
+  description: Contains popular GIT actions
+  publisher: VMware
+  email: demo@demo.com
+  verified: true
+  latestVersion: 0.1.0
+  repo: https://github.com/CodeStreamHub/git-actions
+  versions:
+    - version: 0.1.0
+      image: cmbucicd/git-actions:0.1.0
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.1.0/definition.yaml
