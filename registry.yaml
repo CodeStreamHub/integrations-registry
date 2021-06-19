@@ -1,7 +1,11 @@
 - name: Jira Actions
-  discription: Kit containing popular Jira actions
+  description: Contains popular Jira actions
+  publisher: VMware
+  email: demo@demo.com
+  verified: true
+  latestVersion: 0.1.0
   repo: https://github.com/CodeStreamHub/jira-actions
-  releases:
+  versions:
     - version: 0.1.0
       image: cmbucicd/jira-actions:0.1.0
       yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml 
