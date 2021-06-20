@@ -25,7 +25,7 @@
       description: "git branch create and rewrite"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.1.0/definition.yaml
     - version: 0.2.0
-      image: cmbucicd/git-actions:0.1.0
+      image: cmbucicd/git-actions:0.2.0
       changeLog: "adding git tag create and rewrite feature"
       description: "git tag create and rewrite"
-      yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.1.0/definition.yaml
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.2.0/definition.yaml
