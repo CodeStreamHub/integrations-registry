@@ -31,6 +31,19 @@
       changeLog: "adding git tag create and rewrite feature"
       description: "git tag create and rewrite"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.2.0/definition.yaml
+- name: Log Insight Actions
+  id: lint-actions
+  description: Provides vRealize Log Insight action to ingest logs
+  publisher: VMware
+  email: demo@demo.com
+  verified: true
+  latestVersion: 0.1.0
+  repo: https://github.com/CodeStreamHub/lint-actions
+  logo: https://github.com/CodeStreamHub/lint-actions/blob/main/logo.jpg?raw=true
+  versions:
+    - version: 0.1.0
+      image: cmbucicd/lint-actions:0.1.0
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/lint-actions/main/definitions/0.1.0/definition.yaml
 - name: Wavefront Actions
   id: wavefront-actions
   description: Provides Wavefront action to send custom metrics
