@@ -6,7 +6,7 @@
   verified: true
   latestVersion: 0.1.0
   repo: https://github.com/CodeStreamHub/jira-actions
-  logo: https://github.com/CodeStreamHub/jira-actions/blob/main/logo.jpg
+  logo: https://github.com/CodeStreamHub/jira-actions/blob/main/logo.jpg?raw=true
   versions:
     - version: 0.1.0
       image: cmbucicd/jira-actions:0.1.0
