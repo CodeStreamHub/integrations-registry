@@ -1,6 +1,6 @@
 - name: Jira Actions
   id: jira-actions
-  description: Contains popular Jira actions
+  description: Provides Jira actions like tagging, labelling, transitioning, commenting 
   publisher: VMware
   email: demo@demo.com
   verified: true
@@ -13,7 +13,7 @@
       yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml
 - name: GIT Actions
   id: git-actions
-  description: Contains popular GIT actions
+  description: Provides GIT actions like creating/rewriting branches, adding/removing tags, fetching diffs
   publisher: VMware
   email: demo@demo.com
   verified: true
@@ -31,3 +31,29 @@
       changeLog: "adding git tag create and rewrite feature"
       description: "git tag create and rewrite"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.2.0/definition.yaml
+- name: Wavefront Actions
+  id: wavefront-actions
+  description: Provides Wavefront action to send custom metrics
+  publisher: VMware
+  email: demo@demo.com
+  verified: true
+  latestVersion: 0.1.0
+  repo: https://github.com/CodeStreamHub/wavefront-actions
+  logo: https://github.com/CodeStreamHub/wavefront-actions/blob/main/logo.jpg?raw=true
+  versions:
+    - version: 0.1.0
+      image: cmbucicd/wavefront-actions:0.1.0
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/wavefront-actions/main/definitions/0.1.0/definition.yaml
+- name: PagerDuty Actions
+  id: pagerduty-actions
+  description: Provides PagerDuty actions like triggering an incident on users and escalation policies
+  publisher: VMware
+  email: demo@demo.com
+  verified: true
+  latestVersion: 0.1.0
+  repo: https://github.com/CodeStreamHub/pagerduty-actions
+  logo: https://github.com/CodeStreamHub/pagerduty-actions/blob/main/logo.jpg?raw=true
+  versions:
+    - version: 0.1.0
+      image: cmbucicd/wavefront-actions:0.1.0
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/pagerduty-actions/main/definitions/0.1.0/definition.yaml
