@@ -1,7 +1,7 @@
 - name: Jira Actions
   id: jira-actions
   description: Provides Jira actions like tagging, labelling, transitioning, commenting 
-  publisher: VMware
+  publisher: VWmare
   email: demo@demo.com
   verified: true
   latestVersion: 0.1.0
@@ -14,7 +14,7 @@
 - name: GIT Actions
   id: git-actions
   description: Provides GIT actions like creating/rewriting branches, adding/removing tags, fetching diffs
-  publisher: VMware
+  publisher: VWmare
   email: demo@demo.com
   verified: true
   latestVersion: 0.1.0
@@ -34,7 +34,7 @@
 - name: Log Insight Actions
   id: lint-actions
   description: Provides vRealize Log Insight action to ingest logs
-  publisher: VMware
+  publisher: VWmare
   email: demo@demo.com
   verified: true
   latestVersion: 0.1.0
@@ -47,7 +47,7 @@
 - name: Wavefront Actions
   id: wavefront-actions
   description: Provides Wavefront action to send custom metrics
-  publisher: VMware
+  publisher: VWmare
   email: demo@demo.com
   verified: true
   latestVersion: 0.1.0
@@ -60,7 +60,7 @@
 - name: PagerDuty Actions
   id: pagerduty-actions
   description: Provides PagerDuty actions like triggering an incident on users and escalation policies
-  publisher: VMware
+  publisher: VWmare
   email: demo@demo.com
   verified: true
   latestVersion: 0.1.0
