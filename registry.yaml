@@ -6,7 +6,7 @@
   verified: true
   latestVersion: 0.1.0
   repo: https://github.com/CodeStreamHub/jira-actions
-  logo: https://vmware.github.io/images/velero.png
+  logo: https://github.com/CodeStreamHub/jira-actions/blob/main/logo.jpg
   versions:
     - version: 0.1.0
       image: cmbucicd/jira-actions:0.1.0
@@ -19,7 +19,7 @@
   verified: true
   latestVersion: 0.1.0
   repo: https://github.com/CodeStreamHub/git-actions
-  logo: https://vmware.github.io/images/velero.png
+  logo: https://github.com/CodeStreamHub/git-actions/blob/main/logo.jpg?raw=true
   versions:
     - version: 0.1.0
       image: cmbucicd/git-actions:0.1.0
