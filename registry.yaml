@@ -81,7 +81,10 @@
   versions:
     - version: 0.1.0
       image: cmbucicd/wavefront-actions:0.1.0
+      changeLog: "adding features to send metrics to wavefront"
+      description: "adding features to send metrics to wavefront"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/wavefront-actions/main/definitions/0.1.0/definition.yaml
+      samples: [https://raw.githubusercontent.com/CodeStreamHub/wavefront-actions/main/samples/0.1.0/send-metrics-010-sample.yaml]
 - name: PagerDuty Actions
   id: pagerduty-actions
   description: Provides PagerDuty actions like triggering an incident on users and escalation policies
@@ -94,4 +97,7 @@
   versions:
     - version: 0.1.0
       image: cmbucicd/wavefront-actions:0.1.0
+      changeLog: "adding features to trigger PD incident"
+      description: "adding features to trigger PD incident"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/pagerduty-actions/main/definitions/0.1.0/definition.yaml
+      samples: [https://raw.githubusercontent.com/CodeStreamHub/pagerduty-actions/main/samples/0.1.0/trigger-pd-010-sample.yaml]
