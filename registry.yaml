@@ -13,9 +13,10 @@
       changeLog: "adding features to tag, label, transition and comment on Jira"
       description: "adding features to tag, label, transition and comment on Jira"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml
-      samples: [ https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/comment-010-sample.yaml,
-                 https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/resolve-010-sample.yaml,
-                 https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/update-labels-010-sample.yaml]
+      samples:
+        - https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/comment-010-sample.yaml
+        - https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/resolve-010-sample.yaml
+        - https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/update-labels-010-sample.yaml
 - name: GIT Actions
   id: git-actions
   description: Provides GIT actions like creating/rewriting branches, adding/removing tags, fetching diffs
@@ -31,12 +32,13 @@
       changeLog: "adding features to create/rewrite branch, create/delete tags, fetching diff commits and getting commit attached to a tag"
       description: "adding features to create/rewrite branch, create/delete tags, fetching diff commits and getting commit attached to a tag"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/definitions/0.1.0/definition.yaml
-      samples: [ https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/create-branch-010-sample.yaml, 
-                 https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/rewrite-branch-010-sample.yaml, 
-                 https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/create-tag-010-sample.yaml, 
-                 https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/delete-tag-010-sample.yaml, 
-                 https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/diff-commits-010-sample.yaml, 
-                 https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/get-tag-commit-010-sample.yaml ]
+      samples:
+        - https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/create-branch-010-sample.yaml 
+        - https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/rewrite-branch-010-sample.yaml 
+        - https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/create-tag-010-sample.yaml 
+        - https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/delete-tag-010-sample.yaml
+        - https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/diff-commits-010-sample.yaml
+        - https://raw.githubusercontent.com/CodeStreamHub/git-actions/main/samples/get-tag-commit-010-sample.yaml
 - name: Log Insight Actions
   id: lint-actions
   description: Provides vRealize Log Insight action to ingest logs
@@ -52,7 +54,8 @@
       changeLog: "adding features to ingest logs to lint"
       description: "adding features to ingest logs to lint"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/lint-actions/main/definitions/0.1.0/definition.yaml
-      samples: [https://raw.githubusercontent.com/CodeStreamHub/lint-actions/main/samples/0.1.0/ingest-logs-010-sample.yaml]
+      samples:
+        - https://raw.githubusercontent.com/CodeStreamHub/lint-actions/main/samples/0.1.0/ingest-logs-010-sample.yaml
 - name: Vault Actions
   id: vault-actions
   description: Provides vault action to read secrets from Vault
@@ -68,7 +71,8 @@
       changeLog: "adding features to read secrets from vault"
       description: "adding features to read secrets from vault"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/vault-actions/main/definitions/0.1.0/definition.yaml
-      samples: [https://raw.githubusercontent.com/CodeStreamHub/vault-actions/main/samples/0.1.0/read-secrets-010-sample.yaml]
+      samples:
+        - https://raw.githubusercontent.com/CodeStreamHub/vault-actions/main/samples/0.1.0/read-secrets-010-sample.yaml
 - name: Wavefront Actions
   id: wavefront-actions
   description: Provides Wavefront action to send custom metrics
@@ -84,7 +88,8 @@
       changeLog: "adding features to send metrics to wavefront"
       description: "adding features to send metrics to wavefront"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/wavefront-actions/main/definitions/0.1.0/definition.yaml
-      samples: [https://raw.githubusercontent.com/CodeStreamHub/wavefront-actions/main/samples/0.1.0/send-metrics-010-sample.yaml]
+      samples: 
+        - https://raw.githubusercontent.com/CodeStreamHub/wavefront-actions/main/samples/0.1.0/send-metrics-010-sample.yaml
 - name: PagerDuty Actions
   id: pagerduty-actions
   description: Provides PagerDuty actions like triggering an incident on users and escalation policies
@@ -100,4 +105,5 @@
       changeLog: "adding features to trigger PD incident"
       description: "adding features to trigger PD incident"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/pagerduty-actions/main/definitions/0.1.0/definition.yaml
-      samples: [https://raw.githubusercontent.com/CodeStreamHub/pagerduty-actions/main/samples/0.1.0/trigger-pd-010-sample.yaml]
+      samples: 
+        - https://raw.githubusercontent.com/CodeStreamHub/pagerduty-actions/main/samples/0.1.0/trigger-pd-010-sample.yaml
