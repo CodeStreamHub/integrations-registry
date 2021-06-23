@@ -10,7 +10,12 @@
   versions:
     - version: 0.1.0
       image: cmbucicd/jira-actions:0.1.0
+      changeLog: "adding features to tag, label, transition and comment on Jira"
+      description: "adding features to tag, label, transition and comment on Jira"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/definitions/0.1.0/definition.yaml
+      samples: [ https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/comment-010-sample.yaml,
+                 https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/resolve-010-sample.yaml,
+                 https://raw.githubusercontent.com/CodeStreamHub/jira-actions/main/samples/0.1.0/update-labels-010-sample.yaml]
 - name: GIT Actions
   id: git-actions
   description: Provides GIT actions like creating/rewriting branches, adding/removing tags, fetching diffs
@@ -44,7 +49,26 @@
   versions:
     - version: 0.1.0
       image: cmbucicd/lint-actions:0.1.0
+      changeLog: "adding features to ingest logs to lint"
+      description: "adding features to ingest logs to lint"
       yaml: https://raw.githubusercontent.com/CodeStreamHub/lint-actions/main/definitions/0.1.0/definition.yaml
+      samples: [https://raw.githubusercontent.com/CodeStreamHub/lint-actions/main/samples/0.1.0/ingest-logs-010-sample.yaml]
+- name: Vault Actions
+  id: vault-actions
+  description: Provides vault action to read secrets from Vault
+  publisher: VWmare
+  email: demo@demo.com
+  verified: true
+  latestVersion: 0.1.0
+  repo: https://github.com/CodeStreamHub/vault-actions
+  logo: https://github.com/CodeStreamHub/vault-actions/blob/main/logo.jpg?raw=true
+  versions:
+    - version: 0.1.0
+      image: cmbucicd/vault-actions:0.1.0
+      changeLog: "adding features to read secrets from vault"
+      description: "adding features to read secrets from vault"
+      yaml: https://raw.githubusercontent.com/CodeStreamHub/vault-actions/main/definitions/0.1.0/definition.yaml
+      samples: [https://raw.githubusercontent.com/CodeStreamHub/vault-actions/main/samples/0.1.0/read-secrets-010-sample.yaml]
 - name: Wavefront Actions
   id: wavefront-actions
   description: Provides Wavefront action to send custom metrics
